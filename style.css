@@ -101,3 +101,10 @@ h2 {
 #manga {
     width: 30%;
 }
+
+.footer {
+    background-color: #FFCFFD;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+}
