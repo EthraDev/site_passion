@@ -49,3 +49,36 @@ h2 {
     margin-top: 10px;
     max-width: 100%;
 }
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#presentation {
+    margin-left: 18em;
+    margin-right: 2.5em;
+}
+
+#titre_presentation {
+    margin-left: 13.5em;
+}
+
+#paysage {
+    width: 100%;
+}
+
+#titre_paysage {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: white;
+    border-radius: 25%;
+}
+
+.paysage {
+    position: relative;
+}
