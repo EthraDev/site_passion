@@ -16,3 +16,36 @@ a {
 body {
     font-size: 20px;
 }
+
+.projet {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em;
+}
+
+.premier_projet {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.deuxieme_projet {
+    margin-top: 6em;
+    text-align: center;
+}
+
+#img_projet1 {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#img_projet2 {
+    margin-top: 10px;
+    max-width: 100%;
+}
