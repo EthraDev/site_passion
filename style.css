@@ -92,3 +92,12 @@ h2 {
     margin-right: 1em;
     border-radius: 40px;
 }
+
+.prefere {
+    display: flex;
+    justify-content: space-around;
+}
+
+#manga {
+    width: 30%;
+}
