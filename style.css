@@ -1,110 +1,133 @@
-* {
-    margin: 0;
-}
-
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #FFCFFD;
-}
-
-a {
-    margin: 1.5em;
-    color: black;
-}
-
-body {
-    font-size: 20px;
-}
-
-.projet {
-    display: flex;
-    justify-content: space-around;
-}
-
-h2 {
-    text-align: center;
-    margin: 1em;
-}
-
-.premier_projet {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.deuxieme_projet {
-    margin-top: 6em;
-    text-align: center;
-}
-
-#img_projet1 {
-    max-width: 70%;
-    max-height: 70%;
-}
-
-#img_projet2 {
-    margin-top: 10px;
-    max-width: 100%;
-}
-
-.presentation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-#presentation {
-    margin-left: 18em;
-    margin-right: 2.5em;
-}
-
-#titre_presentation {
-    margin-left: 13.5em;
-}
-
-#paysage {
-    width: 100%;
-}
-
-#titre_paysage {
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    background-color: white;
-    border-radius: 25px;
-}
-
-.paysage {
-    position: relative;
-}
-
-.description {
-    text-align: center;
-    background-color: #FFCFFD;
-    padding: 1em;
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    border-radius: 40px;
-}
-
-.prefere {
-    display: flex;
-    justify-content: space-around;
-}
-
-#manga {
-    width: 30%;
-}
-
-.footer {
-    background-color: #FFCFFD;
-    margin-top: 2em;
-    padding: 1em;
-    text-align: center;
-}
+    * {
+        margin: 0;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #FFCFFD;
+    }
+    
+    a {
+        margin: 1.5em;
+        color: black;
+    }
+    
+    body {
+        font-size: 20px;
+    }
+    
+    .projet {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    h2 {
+        text-align: center;
+        margin: 1em;
+    }
+    
+    .premier_projet {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .deuxieme_projet {
+        margin-top: 6em;
+        text-align: center;
+    }
+    
+    #img_projet1 {
+        max-width: 70%;
+        max-height: 70%;
+    }
+    
+    #img_projet2 {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    
+    .presentation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #presentation {
+        margin-left: 18em;
+        margin-right: 2.5em;
+    }
+    
+    #titre_presentation {
+        margin-left: 13.5em;
+    }
+    
+    #paysage {
+        width: 100%;
+    }
+    
+    #titre_paysage {
+        font-size: 60px;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        background-color: white;
+        border-radius: 25px;
+    }
+    
+    .paysage {
+        position: relative;
+    }
+    
+    .description {
+        text-align: center;
+        background-color: #FFCFFD;
+        padding: 1em;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        border-radius: 40px;
+    }
+    
+    .prefere {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #manga {
+        width: 30%;
+    }
+    
+    .footer {
+        background-color: #FFCFFD;
+        margin-top: 2em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 600px) {
+        body {
+            font-size: 10px;
+        }
+        #titre_paysage {
+            top: 40%;
+            left: 37%;
+            font-size: 25px;
+        }
+        #presentation {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        #titre_presentation {
+            margin-left: 0px;
+        }
+        .prefere {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
